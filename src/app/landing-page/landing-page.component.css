@@ -131,19 +131,34 @@ html {
     padding: 5%;
   }
 
+  .card-link {
+    color: #85C0B5;
+  }
+
   .slider-item {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: calc(100vh);
-    min-height: 700px;
-    position: relative;
+    height: 100vh;
+    /* min-height: 700px;
+    position: relative; */
+  }
+
+  #logo-img {
+    height: 30vh;
   }
 
   #logo-img:hover {
     -webkit-filter: invert(100%) !important;
     filter: invert(100%) !important;
   }
+
+  .card {
+    margin: 2%;
+}
+
+.card-img-top {
+}
   
   /* .slider-item:before {
     content: "";
