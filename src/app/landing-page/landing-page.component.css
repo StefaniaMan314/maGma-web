@@ -102,19 +102,24 @@ html {
     font-weight: 100px;
     letter-spacing: 0.3rem;
   }
-  
+
+  .nav-item a {
+    color: black !important;
+  }
+
   .nav-item a:hover {
-    color: #000 !important;
+    color: grey !important;
     text-decoration: none;
   }
 
   .homepage {
-    /* height: 100%; */
-    /* height: calc(100vh);
-    min-height: 700px;
-    position: relative; */
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
   }
-  
+
   .logos-row li {
     width: 33.3%;
     float: left;
@@ -122,30 +127,20 @@ html {
   }
   
   .logo {
-    border: 0 none;
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-    width: 20%;
-    padding: 5%;
+    height: 10vh;
+    margin: 4%;
   }
 
+  .card {
+    margin: 3%;
+  }
   .card-link {
     color: #85C0B5;
   }
 
-  .slider-item {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 100vh;
-    /* min-height: 700px;
-    position: relative; */
-  }
-
   #logo-img {
-    height: 30vh;
+    margin-top: 10%;
+    height: 50vh;
   }
 
   #logo-img:hover {
@@ -157,9 +152,14 @@ html {
     margin: 2%;
 }
 
-.card-img-top {
-}
-  
+/* .land-img {
+  opacity: 0.6;
+} */
+
+/* .land-img:hover {
+  transform: scale(1.5); 
+} */
+
   /* .slider-item:before {
     content: "";
     position: absolute;
