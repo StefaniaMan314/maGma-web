@@ -1,228 +1,165 @@
 html {
   overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
 }
 
 .text-lowercase {
-    text-transform: lowercase !important;
-  }
-  
-  .text-uppercase {
-    text-transform: uppercase !important;
-  }
-  
-  .text-capitalize {
-    text-transform: capitalize !important;
-  }
-  
-  .font-weight-light {
-    font-weight: 300 !important;
-  }
-  
-  .font-weight-normal {
-    font-weight: 400 !important;
-  }
-  
-  .font-weight-bold {
-    font-weight: 700 !important;
-  }
-  
-  .font-italic {
-    font-style: italic !important;
-  }
-  
-  .text-white {
-    color: #fff !important;
-  }
-  
-  .text-black {
-    color: #000 !important;
-  }
-  
-  .text-primary {
-    color: #20c997 !important;
-  }
-  
-  .btn-outline-black {
-    border: 2px solid #000;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 0px;
-    padding: 10px 20px;
-    color: #000;
-  }
-  
-  .btn-outline-black:hover {
-    color: #fff;
-    background: #000;
-    border-color: #000;
-  }
-
-  .btn.btn-outline-white {
-    border: 2px solid white;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 0px;
-    padding: 10px 20px;
-    color: white;
-  }
-  
-  .btn.btn-outline-white:hover {
-    color: black;
-    background: white;
-    border-color: white;
-  }
-  
-  .title {
-    font-family: "Raleway", sans-serif;
-  }
-
-  header {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    z-index: 5;
-    background: transparent !important;
-  }
-  
-  header .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
-    background: none !important;
-    position: relative;
-    font-family: "Raleway", sans-serif;
-  }
-
-  header .navbar .nav-link {
-    padding: 1.7rem 1.5rem !important;
-    outline: none !important;
-    font-size: 1.25rem;
-    font-weight: 100px;
-    letter-spacing: 0.3rem;
-  }
-
-  .nav-item a {
-    color: black !important;
-  }
-
-  .nav-item a:hover {
-    color: grey !important;
-    text-decoration: none;
-  }
-
-  .homepage {
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-  }
-
-  .logos-row li {
-    width: 33.3%;
-    float: left;
-    list-style: none;
-  }
-  
-  .logo {
-    height: 10vh;
-    margin: 4%;
-  }
-
-  .card {
-    margin: 3%;
-  }
-  .card-link {
-    color: #85C0B5;
-  }
-
-  #logo-img {
-    margin-top: 10%;
-    height: 50vh;
-  }
-
-  #logo-img:hover {
-    -webkit-filter: invert(100%) !important;
-    filter: invert(100%) !important;
-  }
-
-  .card {
-    margin: 2%;
+  text-transform: lowercase !important;
 }
 
-/* .land-img {
-  opacity: 0.6;
-} */
+.text-uppercase {
+  text-transform: uppercase !important;
+}
 
-/* .land-img:hover {
-  transform: scale(1.5); 
-} */
+.text-capitalize {
+  text-transform: capitalize !important;
+}
 
-  /* .slider-item:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #000;
-    opacity: .1;
-  } */
-  
-  .slider-text {
-    font-size: 10rem;
-    text-align: center;
-    color: white;
-    padding-top: 175px;
-  }
-  
-  .section {
-    padding: 5em 0;
-  }
-  
-  .services-section {
-    background-color: lightgray;
-  }
-  
-  .service i {
-    color: aqua;
-  }
-  
-  .site-footer {
-    padding: 5em 0;
-    background: #333;
-    text-align: center;
-  }
-  
-  .site-footer p {
-    color: lightgray;
-  }
-  
-  .site-footer a {
-    color: lightgrey;
-    text-decoration: underline;
-  }
-  
-  .site-footer a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .site-footer h3 {
-    font-size: 1rem;
-    letter-spacing: .1em;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-  }
-  
-  .media-icons {
-    font-size: 2rem;
-  }
-  
-  .media-icons .fab {
-    padding: 10px;
-  }
-  
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-primary {
+  color: #20c997 !important;
+}
+
+.btn-outline-black {
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.btn-outline-black:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.btn.btn-outline-white {
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.btn.btn-outline-white:hover {
+  color: black;
+  background: white;
+  border-color: white;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  /* background: transparent !important; */
+  /* background-color: white; */
+  background: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255, .1));
+}
+
+header .navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: none !important;
+  position: relative;
+}
+
+header .navbar .nav-link {
+  padding: 1.7rem 1.5rem !important;
+  outline: none !important;
+  font-size: 2vmin;
+  font-weight: 100px;
+  letter-spacing: 0.3rem;
+}
+
+.nav-item a {
+  color: black !important;
+}
+
+.nav-item a:hover {
+  color: grey !important;
+  text-decoration: none;
+}
+
+.homepage {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.logos-row li {
+  width: 33.3%;
+  float: left;
+  list-style: none;
+}
+
+.logo {
+  height: 10vh;
+  margin: 4%;
+}
+
+.card {
+  margin: 3%;
+  text-align: justify;
+}
+
+.card-link {
+  color: #85C0B5;
+}
+
+#logo-img {
+  margin-top: 10%;
+  height: 50vh;
+}
+
+#logo-img:hover {
+  -webkit-filter: invert(100%) !important;
+  filter: invert(100%) !important;
+}
+
+.card {
+  margin: 2%;
+}
+
+.section {
+  padding: 5em 0;
+}
+
+.media-icons {
+  font-size: 2rem;
+}
+
+.media-icons .fab {
+  padding: 10px;
+}
