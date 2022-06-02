@@ -1,6 +1,10 @@
 html {
   overflow-x: hidden;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Comfortaa", "Raleway", sans-serif; */
+}
+
+.h5 {
+  font-weight: bolder !important;
 }
 
 .text-lowercase {
