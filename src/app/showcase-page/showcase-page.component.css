@@ -1,0 +1,40 @@
+header .navbar {
+  padding-top: 0;
+  padding-bottom: 1%;
+  background: none !important;
+  position: relative;
+}
+
+header .navbar .nav-link {
+  padding: 1.7rem 1.5rem !important;
+  outline: none !important;
+  font-size: 2vmin;
+  font-weight: 100px;
+  letter-spacing: 0.3rem;
+}
+
+.nav-item a {
+  color: black !important;
+}
+
+.nav-item a:hover {
+  color: grey !important;
+  text-decoration: none;
+}
+
+.nav-pills > .nav-item {
+  padding: 0.1%;
+}
+.nav-pills > .nav-item > .nav-link {
+  color: black;
+  border: solid 1px black;
+}
+.nav-pills > .nav-item > .active {
+  color: white;
+  background-color: black;
+}
+
+.active-cell {
+  background-color: black; 
+  color: white;
+}

@@ -131,6 +131,7 @@ header .navbar .nav-link {
 .logo {
   height: 10vh;
   margin: 4%;
+  display: inline-block;
 }
 
 .card {
