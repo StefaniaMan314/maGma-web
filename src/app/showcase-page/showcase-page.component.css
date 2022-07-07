@@ -36,26 +36,22 @@ header .navbar .nav-link {
 }
 
 .active-cell-volcano {
-  background-color:  #B55B46!important; 
-  opacity: 1;
+  background-color:  rgba(181, 91, 70, 0.9)!important; 
   color: white;
 }
 
 .active-cell-columns {
-  background-color:  #BAA078!important; 
-  opacity: 1;
+  background-color:  rgba(186, 160, 120, 0.9)!important; 
   color: white;
 }
 
 .active-cell-lake {
-  background-color:  #5DAC94!important; 
-  opacity: 1;
+  background-color:  rgba(93, 172, 148, 0.8)!important; 
   color: white;
 }
 
 .active-cell-shadow {
-  background-color:  #AB9687!important; 
-  opacity: 1;
+  background-color:  rgba(171, 150, 135, 0.9)!important; 
   color: white;
 }
 
