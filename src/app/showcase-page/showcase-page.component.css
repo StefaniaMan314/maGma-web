@@ -24,6 +24,7 @@ header .navbar .nav-link {
 
 .nav-pills > .nav-item {
   padding-right: 0.1%;
+  padding-top: 1%;
 }
 .nav-pills > .nav-item > .nav-link {
   color: black;
@@ -35,25 +36,25 @@ header .navbar .nav-link {
 }
 
 .active-cell-volcano {
-  background-color:  #9F4634!important; /*#AC8C5D*/
+  background-color:  #B55B46!important; 
   opacity: 1;
   color: white;
 }
 
 .active-cell-columns {
-  background-color:  #A28253!important; /*#AC8C5D*/
+  background-color:  #BAA078!important; 
   opacity: 1;
   color: white;
 }
 
 .active-cell-lake {
-  background-color:  #3C887E!important; /*#AC8C5D*/
+  background-color:  #5DAC94!important; 
   opacity: 1;
   color: white;
 }
 
 .active-cell-shadow {
-  background-color:  #BAA078!important; /*#AC8C5D*/
+  background-color:  #AB9687!important; 
   opacity: 1;
   color: white;
 }
@@ -123,4 +124,10 @@ table tr td, table tr th{
 
 .media-icons .fab {
   padding: 10px;
+}
+
+.location-desc {
+  color: white; 
+  padding: 1%; 
+  font-weight: bolder;
 }
