@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@fontsource/comfortaa";
+@import "@fontsource/comfortaa/700.css";
 
-@import "~bootstrap/dist/css/bootstrap.css"
 
+html, body {
+    overflow-x: hidden;
+    font-family: "Comfortaa", "Raleway", sans-serif;
+    font-weight: 400;
+}
