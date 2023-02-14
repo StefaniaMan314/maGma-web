@@ -8,6 +8,7 @@ import { ShowcasePageComponent } from './showcase-page/showcase-page.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryModule } from  'ng-gallery';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
