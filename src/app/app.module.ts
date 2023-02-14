@@ -5,12 +5,18 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ShowcasePageComponent } from './showcase-page/showcase-page.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    ShowcasePageComponent
+    ShowcasePageComponent,
+    GalleryComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
