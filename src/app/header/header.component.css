@@ -1,12 +1,10 @@
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 5;
-    background: transparent !important;
-    /* background-color: white; */
-    /* background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, .1)); */
+    background-color: white;
 }
 
 header .navbar {
@@ -19,9 +17,14 @@ header .navbar {
 header .navbar .nav-link {
     padding: 1.7rem 1.5rem !important;
     outline: none !important;
-    font-size: 2vmin;
-    font-weight: 100px;
-    letter-spacing: 0.3rem;
+    font-size: 1.5vmin;
+    letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    header .navbar .nav-link {
+        font-size: 3vmin;
+    }
 }
 
 .nav-item a {
