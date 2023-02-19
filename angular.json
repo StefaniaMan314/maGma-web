@@ -106,5 +106,7 @@
       }
     }
   },
-  "defaultProject": "maGma-web"
+  "cli": {
+    "analytics": false
+  }
 }

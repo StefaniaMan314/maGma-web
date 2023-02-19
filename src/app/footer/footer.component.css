@@ -1,0 +1,23 @@
+.section {
+    padding: 5em 0;
+}
+
+.logos-row li {
+    width: 33.3%;
+    float: left;
+    list-style: none;
+}
+
+.logo {
+    height: 10vh;
+    margin: 4%;
+    display: inline-block;
+}
+
+.media-icons {
+    font-size: 2rem;
+}
+
+.media-icons .fab {
+    padding: 10px;
+}
