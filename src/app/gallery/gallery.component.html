@@ -18,6 +18,7 @@
         <div class="carousel-inner">
             <div *ngFor="let item of items; index as i"
                 [ngClass]="[i === 0 ? 'carousel-item active' : 'carousel-item']">
+                <!-- <img class="d-block w-100" src={{item}} alt="slide"> -->
                 <div class="carousel-item-bg" [ngStyle]="{'background-image': 'url(' + item + ')'}"></div>
             </div>
         </div>
