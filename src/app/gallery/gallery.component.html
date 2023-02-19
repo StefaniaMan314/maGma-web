@@ -12,8 +12,23 @@
     </iframe>
 </div>
 
+<!-- GALLERY -->
 <div class="container">
-    <gallery [items]="items" thumbPosition="left"></gallery>
+    <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div *ngFor="let item of items; index as i"
+                [ngClass]="[i === 0 ? 'carousel-item active' : 'carousel-item']">
+                <!-- <img class="d-block w-100" src={{item}} alt="slide"> -->
+                <div class="carousel-item-bg" [ngStyle]="{'background-image': 'url(' + item + ')'}"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
 </div>
 
 <!-- FOOTER -->
