@@ -1,7 +1,18 @@
+.gallery-container {
+    height: 80vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery-container .gallery {
+    height: 100%;
+}
+
 .video-container {
-    width: 100vw;
     position: relative;
     padding-top: 56.25%;
+    border-radius: 0.25rem !important;
+    overflow: hidden;
 }
 
 .video-frame {
@@ -10,28 +21,5 @@
     position: absolute;
     top: 0;
     left: -8px;
-}
-
-.video-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(35 35 35 / 90%);
-    opacity: 0.3;
-    z-index: 2;
-}
-
-
-#galleryCarousel {
-    padding: 50px 0;
-}
-
-#galleryCarousel .carousel-item-bg {
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat no-repeat;
-    width: 100%;
-    height: 60vw;
+    border-radius: 0.25rem !important;
 }
