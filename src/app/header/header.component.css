@@ -18,8 +18,11 @@ header .navbar .nav-link {
     padding: 1.7rem 1.5rem !important;
     outline: none !important;
     font-size: 1.5vmin;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
 
 @media screen and (max-width: 992px) {
     header .navbar .nav-link {
@@ -50,8 +53,3 @@ header .navbar .nav-link {
     right: 0;
     top: 10px;
 }
-
-
-/* .nav-item.active {
-    font-weight: 700;
-} */
