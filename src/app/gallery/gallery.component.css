@@ -1,3 +1,49 @@
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/gallery/2022/111.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(35 35 35 / 90%);
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.hero-container .btn {
+    position: relative;
+    z-index: 3;
+}
+
+.btn.btn-outline-white {
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn.btn-outline-white:hover {
+    color: black;
+    background: white;
+    border-color: white;
+}
+
 .gallery-container {
     height: 80vh;
     padding-top: 100px;
