@@ -1,10 +1,10 @@
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 5;
-    background-color: white;
+    background-color: transparent;
 }
 
 header .navbar {
@@ -18,12 +18,21 @@ header .navbar .nav-link {
     padding: 1.7rem 1.5rem !important;
     outline: none !important;
     font-size: 1.5vmin;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
     header .navbar .nav-link {
         font-size: 3vmin;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        text-align: center;
+        padding: 100px 0;
     }
 }
 
@@ -34,4 +43,13 @@ header .navbar .nav-link {
 .nav-item a:hover {
     color: grey !important;
     text-decoration: none;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border: none;
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    top: 10px;
 }
