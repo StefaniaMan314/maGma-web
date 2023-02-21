@@ -10,14 +10,13 @@
 
 <section id="photos" style="background-color: black; padding-bottom: 100px;">
     <!-- GALLERY -->
-    <!-- <div class="container gallery-container">
+    <div class="container gallery-container">
         <gallery class="gallery rounded" [items]="items"></gallery>
-    </div> -->
-    <div id="galleryCarousel" class="container carousel slide" data-ride="carousel">
+    </div>
+    <!-- <div id="galleryCarousel" class="container carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div *ngFor="let item of items; index as i"
                 [ngClass]="[i === 0 ? 'carousel-item active' : 'carousel-item']">
-                <!-- <img class="d-block w-100" src={{item}} alt="slide"> -->
                 <div class="carousel-item-bg" [ngStyle]="{'background-image': 'url(' + item + ')'}"></div>
             </div>
         </div>
@@ -27,14 +26,15 @@
         <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </a>
-    </div>
+    </div> -->
 </section>
 
 <section id="aftermovie" style="background-color: black; padding-bottom: 100px;">
     <!-- VIDEO -->
     <div class="container">
         <div class="video-container">
-            <iframe class="video-frame" src="https://www.youtube.com/embed/OdUWhFk77Ow?autoplay=1&mute=1"
+            <iframe class="video-frame"
+                src="https://www.youtube.com/embed/OdUWhFk77Ow?autoplay=1&mute=1&loop=1&playlist=OdUWhFk77Ow"
                 title="maGma aftermovie 2022" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
