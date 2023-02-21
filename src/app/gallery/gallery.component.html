@@ -1,19 +1,39 @@
-<!-- HEADER -->
-<app-header></app-header>
+<div id="galleryId">
+    <!-- HEADER -->
+    <app-header></app-header>
 
-<!-- HERO-->
-<section class="hero-container">
-    <div class="overlay"></div>
-    <button (click)="scroll(photos)" class="btn btn-outline-white">See photos</button>
-    <button (click)="scroll(aftermovie)" class="btn btn-outline-white">Watch aftermovie</button>
-</section>
+    <!-- HERO-->
+    <section class="hero-container">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Gallery</h1>
+            <p>Photo and video documentation by Orsolya Balint and Alexandru Dan</p>
+        </div>
+        <div class="hero-buttons">
+            <button (click)="scroll(aftermovie)" class="btn btn-outline-white">Watch aftermovie</button>
+            <button (click)="scroll(photos)" class="btn btn-outline-white">See photos</button>
+        </div>
+    </section>
 
-<section #photos style="background-color: black; padding-bottom: 100px;">
-    <!-- GALLERY -->
-    <div class="container gallery-container">
-        <gallery class="gallery rounded" [items]="items"></gallery>
-    </div>
-    <!-- <div id="galleryCarousel" class="container carousel slide" data-ride="carousel">
+    <section #aftermovie style="padding-top: 100px;">
+        <!-- VIDEO -->
+        <div class="container">
+            <div class="video-container">
+                <iframe class="video-frame"
+                    src="https://www.youtube.com/embed/wW6f3dsEOI8?autoplay=1&mute=1&loop=1&playlist=wW6f3dsEOI8"
+                    title="maGma aftermovie 2022" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section #photos>
+        <!-- GALLERY -->
+        <div class="container gallery-container">
+            <gallery class="gallery rounded" [items]="items"></gallery>
+        </div>
+        <!-- <div id="galleryCarousel" class="container carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div *ngFor="let item of items; index as i"
                 [ngClass]="[i === 0 ? 'carousel-item active' : 'carousel-item']">
@@ -27,21 +47,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </a>
     </div> -->
-</section>
+    </section>
 
-<section #aftermovie style="background-color: black; padding-bottom: 100px;">
-    <!-- VIDEO -->
-    <div class="container">
-        <div class="video-container">
-            <iframe class="video-frame"
-                src="https://www.youtube.com/embed/OdUWhFk77Ow?autoplay=1&mute=1&loop=1&playlist=OdUWhFk77Ow"
-                title="maGma aftermovie 2022" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-        </div>
-    </div>
-</section>
-
-<!-- FOOTER -->
-<app-footer></app-footer>
+    <!-- FOOTER -->
+    <app-footer></app-footer>
+</div>
