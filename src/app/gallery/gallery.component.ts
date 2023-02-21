@@ -7,7 +7,8 @@ import { Gallery, GalleryItem, ImageItem } from "ng-gallery";
   styleUrls: ["./gallery.component.css"],
 })
 export class GalleryComponent implements OnInit {
-  items: GalleryItem[];
+  // items: GalleryItem[];
+  items: string[];
 
   constructor(public gallery: Gallery) {
     this.items = [];
@@ -15,13 +16,14 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit() {
     for (let i = 1; i <= 129; i++) {
-      this.items.push(
-        new ImageItem({
-          src: `assets/gallery/2022/${i}.JPG`,
-          thumb: `assets/gallery/2022/${i}.JPG`,
-        })
-      );
+      // this.items.push(
+      //   new ImageItem({
+      //     src: `assets/gallery/2022/${i}.JPG`,
+      //     thumb: `assets/gallery/2022/${i}.JPG`,
+      //   })
+      // );
+      this.items.push(`assets/gallery/2022/${i}.JPG`);
     }
-    this.gallery.ref().load(this.items);
+    // this.gallery.ref().load(this.items);
   }
 }
