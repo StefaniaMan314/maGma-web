@@ -26,4 +26,8 @@ export class GalleryComponent implements OnInit {
     }
     // this.gallery.ref().load(this.items);
   }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
 }
