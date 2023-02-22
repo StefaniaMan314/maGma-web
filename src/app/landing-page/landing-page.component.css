@@ -1,0 +1,78 @@
+.homepage {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo-img {
+  margin-top: 10%;
+  height: 50vh;
+}
+
+#logo-img:hover {
+  -webkit-filter: invert(100%) !important;
+  filter: invert(100%) !important;
+}
+
+.section {
+  padding: 5em 0;
+}
+
+.card {
+  margin: 3%;
+  text-align: justify;
+}
+
+.card-link {
+  color: #85C0B5;
+}
+
+.btn-outline-black {
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.btn-outline-black:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.btn.btn-outline-white {
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.btn.btn-outline-white:hover {
+  color: black;
+  background: white;
+  border-color: white;
+}
+
+.btn-outline-black {
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.btn-outline-black:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}

@@ -1,0 +1,125 @@
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/gallery/2022/119.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+}
+
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(35 35 35 / 90%);
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.hero-container .btn {
+    position: relative;
+    z-index: 3;
+}
+
+.hero-container .btn:focus {
+    box-shadow: none !important;
+}
+
+.btn.btn-outline-white {
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn.btn-outline-white:hover {
+    color: black;
+    background: white;
+    border-color: white;
+}
+
+.gallery-container {
+    height: 80vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery-container .gallery {
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 56.25%;
+    border-radius: 0.25rem !important;
+    overflow: hidden;
+}
+
+.video-frame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    border-radius: 0.25rem !important;
+}
+
+#galleryCarousel {
+    padding: 50px 0;
+}
+
+#galleryCarousel .carousel-item-bg {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    width: 100%;
+    height: 40vw;
+}
+
+@media screen and (max-width: 992px) {
+    #galleryCarousel .carousel-item-bg {
+        height: 60vw;
+    }
+}
+
+.gallery {
+    background-color: white !important;
+}

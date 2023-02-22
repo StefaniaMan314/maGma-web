@@ -1,0 +1,55 @@
+.nav-pills>.nav-item {
+  padding-right: 0.1%;
+  padding-top: 1%;
+}
+
+.nav-pills>.nav-item>.nav-link {
+  color: black;
+  border: solid 1px black;
+}
+
+.nav-pills>.nav-item>.active {
+  color: white;
+  background-color: black;
+}
+
+.active-cell-volcano {
+  background-color: rgba(181, 91, 70, 0.9) !important;
+  color: white;
+}
+
+.active-cell-columns {
+  background-color: rgba(186, 160, 120, 0.9) !important;
+  color: white;
+}
+
+.active-cell-lake {
+  background-color: rgba(93, 172, 148, 0.8) !important;
+  color: white;
+}
+
+.active-cell-shadow {
+  background-color: rgba(171, 150, 135, 0.9) !important;
+  color: white;
+}
+
+table tr td,
+table tr th {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-outline-black {
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 10px 20px;
+  color: #000;
+}
+
+.btn-outline-black:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
