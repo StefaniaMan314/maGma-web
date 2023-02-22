@@ -15,7 +15,7 @@ export class GalleryComponent implements OnInit {
   }
 
   ngOnInit() {
-    for (let i = 1; i <= 129; i++) {
+    for (let i = 1; i <= 128; i++) {
       this.items.push(
         new ImageItem({
           src: `assets/gallery/2022/${i}.jpg`,
